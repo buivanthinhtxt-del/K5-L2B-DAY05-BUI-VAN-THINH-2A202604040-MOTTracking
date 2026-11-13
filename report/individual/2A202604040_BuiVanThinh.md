@@ -7,8 +7,8 @@
 - Họ tên: Bùi Văn Thịnh
 - MSSV: 2A202604040
 - Mã đề (A/B/C): A (ID gốc MOT17-09: 1, 7, 19, 20, 21)
-- Email: thinhyh0578@gmail.com
-- Link repository: https://github.com/<tai-khoan-github>/K5-L2B-DAY05-BuiVanThinh-2A202604040-MOTTracking
+- Email: buivanthinhtxt@gmail.com
+- Link repository: https://github.com/buivanthinhtxt-del/K5-L2B-DAY05-BUI-VAN-THINH-2A202604040-MOTTracking
 - Giờ bắt đầu: 16:13, 13/11/2026 (GMT+7)
 - Giờ kết thúc: 18:29, 13/11/2026 (GMT+7), xuất file lần cuối
 
@@ -84,9 +84,10 @@ Loại lỗi dùng đúng một trong 7 mã: `id_switch`, `fragmentation`, `lost
 
 | Frame | Mã người | Loại lỗi | Mô tả một câu | Phát hiện ở lượt | Đã sửa? |
 |---:|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| 38–59 | P2 | | Box chỉ bao phần thân nhìn thấy sau kính, không bao toàn thân | | Sửa một phần (đã kéo dài box) |
+| 15–34 | P1 | | Cờ occluded bật tắt xen kẽ từng frame | | Đã sửa |
+| 0–5 | P1 | | Cờ occluded bật dù P1 không bị che | | Chưa |
+| 39 | P1 | | P1 bị che kín nhưng cờ occluded tắt | | Chưa |
 
 Tổng hợp số lỗi theo loại:
 
